@@ -1,2 +1,0 @@
-# nitradozzzz.github.io
-gg
