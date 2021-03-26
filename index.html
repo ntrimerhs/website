@@ -16,6 +16,11 @@
   <body>  
   <div id="particles-js"></div>
   <script type="text/javascript" src="js/particles.js"></script>
+    <script>
+      particlesJS.load('particles-js', '/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
+      </script>
   <script type="text/javascript" src="js/app.js"></script>
   <div class="container">
     <div class="center">
