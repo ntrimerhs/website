@@ -6,6 +6,7 @@ body {
   
   #particle-js { 
       height: 100%;
+      position: absolute;
       background: #262626;
 }
   
