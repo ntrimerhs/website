@@ -3,10 +3,6 @@ body {
     padding: 0;
     height: 100vh;
 }
-canvas {
-    display: block;
-    vertical-align: bottom;
-  }
   
   #particle-js { 
       height: 100%;
