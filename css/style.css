@@ -1,79 +1,78 @@
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+canvas {
+  display: block;
+  vertical-align: bottom;
 }
-  
-  #particle-js { 
-      height: 100%;
-      position: absolute;
-      background: #262626;
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
-  
-  .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .image {
-    border-radius: 50%;
-  }
-  
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.header1 {
+  font-family: 'Righteous', cursive;
+  font-size: 6vw;
+}
+
+.header2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.4vw;
+}
+
+.header3 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.2vw;
+}
+
+.link1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.8vw;
+  color: inherit;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+}
+
+.link1:hover {
+  color: #fc7a00;
+}
+
+@media screen and (max-width: 785px) {
   .header1 {
-    font-family: 'Righteous', cursive;
-    font-size: 6vw;
+    font-size: 8vw;
   }
-  
-  .header2 {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.4vw;
-  }
-  
-  .header3 {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 2.2vw;
-  }
-  
   .link1 {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 2.8vw;
-    color: inherit;
-    margin: 0px 5px 0px 5px;
-    transition: 0.5s;
+    font-size: 4vw;
   }
-  
-  .link1:hover {
-    color: #fc7a00;
+}
+
+@media screen and (max-width: 765px) {
+  body {
+    text-align: center;
   }
-  
-  @media screen and (max-width: 785px) {
-    .header1 {
-      font-size: 8vw;
-    }
-    .link1 {
-      font-size: 4vw;
-    }
+  .header1 {
+    font-size: 9vw;
   }
-  
-  @media screen and (max-width: 765px) {
-    body {
-      text-align: center;
-    }
-    .header1 {
-      font-size: 9vw;
-    }
-    .header2 {
-      font-size: 2.5vw;
-    }
-    .link1 {
-      font-size: 5vw;
-    }
+  .header2 {
+    font-size: 2.5vw;
   }
-  
-  @media screen and (min-width: 1390px) {
-    .header2 {
-      font-size: 1.1vw;
-    }
+  .link1 {
+    font-size: 5vw;
   }
+}
+
+@media screen and (min-width: 1390px) {
+  .header2 {
+    font-size: 1.1vw;
+  }
+}
