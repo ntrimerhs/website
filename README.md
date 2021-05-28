@@ -1,4 +1,4 @@
-# nitradozzzz.github.io
+# nitradoz.github.io
 Hello, World!
 
 
