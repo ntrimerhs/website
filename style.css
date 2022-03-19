@@ -1,0 +1,89 @@
+root {
+	--genwidth: 850px ;
+	--navwidth: 175px ;
+	--fg: #ddd ;
+	--altfg: #ccc ;
+	--fgemph: white ;
+	--bg: #111 ;
+	--altbg: #333 ;
+	--emph: #333 ;
+	--bordercolor: #555 ;
+	--limish: #0e0 ;
+}
+
+body {
+	font-style: sans-serif ;
+	/* background: linear-gradient(indigo, darkslategray) fixed ; */
+	background: #100 ;
+	margin-bottom: 100px ;
+}
+
+main, nav, footer {
+	box-shadow: 5px 5px 5px 5px rgba( 0, 0, 0, 0.3) ;
+}
+
+main {
+	margin: auto ;
+	color: var(--fg) ;
+	background: var(--bg) ;
+	border: dashed 1px var(--bordercolor) ;
+	padding: 1em ;
+	border-radius: 20px ;
+}
+
+header h1 {
+	font-size: xxx-large ;
+	max-width: var(--genwidth) ;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+.lw, p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, td img {
+	max-height: 1em;
+	max-width: 1em;
+	vertical-align: middle ;
+}
+
+sup {
+	vertical-align: top;
+	font-size: 0.6em;
+}
+
+nav {
+	font-variant: small-caps ;
+}
+
+nav,footer {
+	text-align: center ;
+	clear: both ;
+	background: var(--altbg) ;
+	border-radius: 20px ;
+	margin: auto ;
+	border: dashed 1px var(--bordercolor) ;
+	max-width: var(--genwidth) ;
+}
+
+footer {
+	color: var(--altfg) ;
+	margin-top: 1em ;
+    font-size: small ;
+	overflow-wrap: break-word ;
+}
+
+nav {
+	max-width: var(--genwidth) ;
+}
+
+nav li,footer li {
+	display: inline-block ;
+	list-style: none ;
+	background: var(--bg) ;
+	border-radius: 10px ;
+	padding: .5em ;
+	max-width: 7em ;
+}
+
+nav ul, footer ul, #taglist {
+	padding: 0;
+	margin: .5em;
+}
