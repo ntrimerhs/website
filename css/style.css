@@ -20,12 +20,12 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #cadffa3a;
+    background-color: #3c96613a;
     color: white;
   }
   
   .topnav a.active {
-    background-color: #637d9e;
+    background-color: #639e77;
     color: white;
   }
   
@@ -71,7 +71,7 @@ body {
   }
   
   .link1:hover {
-    color: #4c6b92c2;
+    color: #4a8d5bc2;
   }
 
  .secontainer {
